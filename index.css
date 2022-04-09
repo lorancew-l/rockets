@@ -1,0 +1,33 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#progressBar-container {
+  width: 600px;
+  height: 25px;
+
+  position: relative;
+
+  background-color: rgb(114, 114, 114);
+}
+
+#progressBar-bar {
+  width: 600px;
+  height: 25px;
+
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+  background-color: #3ed12b;
+}
